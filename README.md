@@ -9,7 +9,7 @@ A sleek to-do list web app built using pure HTML, CSS, and JavaScript.
 - Persistent using `localStorage`
 
 ## 🌐 Live Demo
-👉 [Open TaskBrew](https://your-username.github.io/taskbrew/)
+👉 [Open TaskBrew](https://ytsatyam.github.io/taskbrew/)
 
 ## 📸 Screenshot
 ![TaskBrew Screenshot](https://your-username.github.io/taskbrew/screenshot.jpg)
