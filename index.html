@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskBrew • Craft Your Tasks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ── Header ─────────────────────────────────────────────── -->
+    <header class="header">
+      <h1>☕ Task<span class="accent">Brew</span></h1>
+      <button id="themeToggle" aria-label="Toggle dark / light mode">🌙</button>
+    </header>
+
+    <!-- ── Main ────────────────────────────────────────────────── -->
+    <main class="container">
+      <!-- Add-task form -->
+      <form id="taskForm" autocomplete="off">
+        <input
+          id="taskInput"
+          type="text"
+          placeholder="Add a task…"
+          aria-label="Task description"
+          required
+        />
+        <select id="priorityInput" aria-label="Priority">
+          <option value="low">Low ☕</option>
+          <option value="medium">Medium ⚡</option>
+          <option value="high">High 🚀</option>
+        </select>
+        <button type="submit" aria-label="Add task">Add</button>
+      </form>
+
+      <!-- Filter bar -->
+      <nav class="filters" aria-label="Task filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="active">Active</button>
+        <button data-filter="completed">Completed</button>
+      </nav>
+
+      <!-- Task list -->
+      <ul id="taskList" class="task-list" aria-live="polite"></ul>
+    </main>
+
+    <!-- ── Footer ──────────────────────────────────────────────── -->
+    <footer class="footer">
+      <p>Built with vanilla 🍦 JS — tasks stored locally</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
