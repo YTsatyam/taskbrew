@@ -12,4 +12,4 @@ A sleek to-do list web app built using pure HTML, CSS, and JavaScript.
 👉 [Open TaskBrew](https://ytsatyam.github.io/taskbrew/)
 
 ## 📸 Screenshot
-![TaskBrew Screenshot](https://your-username.github.io/taskbrew/screenshot.jpg)
+![TaskBrew Screenshot](Screenshot 2025-06-25 204735.png)
